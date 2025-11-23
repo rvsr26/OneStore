@@ -1,0 +1,24 @@
+# Flutter & Dart
+.dart_tool/
+.buildlog/
+.packages
+.pub-cache/
+.pub/
+build/
+
+# IntelliJ & VSCode
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+
+# Node.js server
+lib/server/node_modules/
+lib/server/*.log
+
+# Secrets
+lib/services/gpt_service.dart
+lib/services/ai_service.dart
+lib/firebase_options.dart
